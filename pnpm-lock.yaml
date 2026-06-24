@@ -34,8 +34,8 @@ importers:
         specifier: ^20.5.3
         version: 20.5.3(@types/node@25.0.10)(typescript@5.9.3)
       '@ogs-gmbh/oxlint-presets':
-        specifier: ^1.0.5
-        version: 1.0.5(oxlint@1.70.0)
+        specifier: ^1.0.6
+        version: 1.0.6(oxlint@1.70.0)
       '@ogs-gmbh/rolldown-plugin-assets':
         specifier: ^1.0.1
         version: 1.0.1
@@ -953,8 +953,8 @@ packages:
   '@ogs-gmbh/ogsid-11-theme@1.0.0':
     resolution: {integrity: sha512-8ZXrAy2HO36f50xfQds0EOLJAlknbn7HfkGMRZKZqK/xDKcZP/V8j+GAt98t93RqvaiDX97p+UTlobK0xNwcbQ==}
 
-  '@ogs-gmbh/oxlint-presets@1.0.5':
-    resolution: {integrity: sha512-oFmwPgeQ3pjD3kGKbS8kPDVOlRIghLnCbPbtsBpUsLm50DB06ovsC/jbXsgXYpLLn06lj/GNZaHeKT8yK8NX7w==}
+  '@ogs-gmbh/oxlint-presets@1.0.6':
+    resolution: {integrity: sha512-QPGlW4jmdWvj+pH+jIdrt/qPJXDo+376mXYi4hHARnGLawma64hG3YXWHZaW+3eawQhsWSub51perHPIxgoxRQ==}
     peerDependencies:
       oxlint: ^1.50.0
 
@@ -4597,7 +4597,7 @@ snapshots:
 
   '@ogs-gmbh/ogsid-11-theme@1.0.0': {}
 
-  '@ogs-gmbh/oxlint-presets@1.0.5(oxlint@1.70.0)':
+  '@ogs-gmbh/oxlint-presets@1.0.6(oxlint@1.70.0)':
     dependencies:
       oxlint: 1.70.0
 
