@@ -1,41 +1,74 @@
 > _We're OGS, check out our work on [github.com/ogs-gmbh](https://github.com/ogs-gmbh)_
 
-# Project Template for React
+# MUI React Hook Form Components
 
-_A project template with a ready-to-use structure._
+_MUI components tightly integrated with React Hook Form_
 
 ![Preview](./docs/preview.avif)
 
-<a href="./LICENSE" target="_blank"><img alt="license badge" src="https://img.shields.io/github/license/OGS-GmbH/_react-template?color=0f434e&logo=hackthebox&logoColor=000000&labelColor=ffffff" /></a>
+<a href="./LICENSE" target="_blank"><img alt="license badge" src="https://img.shields.io/github/license/OGS-GmbH/mui-rhf-components?color=0f434e&logo=hackthebox&logoColor=000000&labelColor=ffffff" /></a>
+<a href="https://github.com/OGS-GmbH/mui-rhf-components/actions/workflows/main-trusted-deploy.yml" target="_blank"><img alt="workflow badge" src="https://img.shields.io/github/actions/workflow/status/OGS-GmbH/mui-rhf-components/main-trusted-deploy.yml?color=0f434e&logo=rocket&logoColor=000000&labelColor=ffffff" /></a>
+<a href="https://www.npmjs.com/package/@ogs-gmbh/mui-rhf-components" target="_blank"><img alt="npm badge" src="https://img.shields.io/npm/v/%40ogs-gmbh%2Fmui-rhf-components?color=0f434e&logo=npm&logoColor=000000&labelColor=ffffff" /></a>
 
-- **Easy to Set Up**\
-  Simple configuration lets you start your projects quickly without complex setup.
+- **MUI Integration**\
+  Components built on top of Material UI, fully compatible with your existing MUI theme and design system.
 
-- **Preconfigured Tooling**\
-  Includes Oxlint, Oxfmt, Rolldown, TypeScript and more tooling out of the box.
+- **React Hook Form Ready**\
+  Pre-wired with React Hook Form's context — no boilerplate, just drop components into your forms.
 
-- **Modular Structure**\
-  Organized folder layout for scalable and maintainable projects.
+- **Fully Typed**\
+  Complete TypeScript support with prop types derived directly from MUI and RHF internals.
 
-- **Development Friendly**\
-  Quick start with minimal setup required for new applications.
+- **Slot-Based API**\
+  Flexible slot props let you customize every layer of a component without losing the defaults.
 
-## Tooling
+## Getting Started
 
-| Tool                | Extras                       |
-| ------------------- | ---------------------------- |
-| ✅ `oxlint`         |                              |
-| ✅ `oxfmt`          |                              |
-| ✅ `Rolldown`       | with `tsdown`                |
-| ✅ `TypeScript`     |                              |
-| ✅ `VitePress`      |                              |
-| ✅ `TypeDoc`        |                              |
-| ✅ `GitHub Actions` |                              |
-| ✅ `release-please` |                              |
-| ✅ `commitlint`     |                              |
-| ✅ `lint-staged`    |                              |
-| ✅ `husky`          |                              |
-| ✅ `Vitest`         | Coverage and `React` support |
+> [!IMPORTANT]
+> We're offering an extensive API-Reference covered with in-depth usage examples of this project.
+
+To get a starting point, simply refer to our documentation at [ogs-gmbh.github.io/mui-rhf-components](https://ogs-gmbh.github.io/mui-rhf-components).
+
+### Prerequisites
+
+- Node.js version 18 or higher
+- A package manager: e.g. npm, pnpm, ...
+
+### Installation
+
+Using npm:
+
+```sh
+$ npm install @ogs-gmbh/mui-rhf-components
+```
+
+<details>
+  <summary>Using a different package manager?</summary>
+  <br/>
+
+Using yarn:
+
+```sh
+$ pnpm add @ogs-gmbh/mui-rhf-components
+```
+
+Using pnpm:
+
+```sh
+$ pnpm add @ogs-gmbh/mui-rhf-components
+```
+
+Using bun:
+
+```sh
+$ bun add @ogs-gmbh/mui-rhf-components
+```
+
+</details>
+
+### Usage
+
+Usage may vary per component, so we recommend to check the [reference](https://ogs-gmbh.github.io/mui-rhf-components/reference). Every components has an example.
 
 ## License
 
